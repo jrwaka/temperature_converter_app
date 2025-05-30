@@ -128,15 +128,17 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
 
-                    Container(
-                      child: Text(
-                        "=",
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    SizedBox(width: 10),
+
+                    Text(
+                      "=",
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
+
+                    SizedBox(width: 10),
 
                     Expanded(
                       child: TextField(
