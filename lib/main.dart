@@ -158,7 +158,10 @@ class _MyAppState extends State<MyApp> {
                   ElevatedButton(
                     onPressed: _convertTemperature,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.white,
+                      backgroundColor: Colors.black,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       textStyle: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
@@ -166,7 +169,7 @@ class _MyAppState extends State<MyApp> {
                     ),
                     child: Text(
                       "CONVERT",
-                      style: TextStyle(color: Colors.black),
+                      style: TextStyle(color: Colors.white),
                     ),
                   ),
                 ],
